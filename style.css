@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(221, 224, 224, 0.678);
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+
+header {
+    text-align: center;
+}
+
+header>p>span {
+    color: red;
+}
+
+
+figure {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+figure>div{
+    margin-top:20px;
+    width: 23%;    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure>div>figcaption {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+img {    
+    object-fit: cover;
+    height:  250px;
+    width: 250px;
+    border: solid 10px white;
+    box-shadow: 1px 1px 5px gray;    
+}
+
+i {
+    color: black;
+    padding: 35% 0;
+ }
+
+ .second-div {
+    background-color: white;
+    height:  270px;
+    width: 270px;
+    text-align: center;
+    box-shadow: 1px 1px 5px gray;
+    font-size: 100px;
+ }
+
+ @media only screen and (max-width: 1024px) {
+     img {
+         height: 200px;
+         width: 200px;
+     }
+
+     .second-div {
+         height: 220px;
+         width: 220px;
+         font-size: 80px;
+     }
+
+ }
+
+ @media only screen and (max-width:768px) {
+     img {
+         height: 130px;
+         width: 130px;
+     }
+
+     .second-div {
+         height: 150px;
+         width: 150px;
+         font-size: 60px;
+     }
+ }
+
+ @media only screen and (min-width: 1600px) {
+     img {
+         height: 300px;
+         width: 300px;
+     }
+
+     .second-div{
+         height: 320px;
+         width: 320px;
+         font-size: 100px;
+     }
+ }
